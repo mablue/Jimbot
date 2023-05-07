@@ -1,0 +1,56 @@
+# F-Droid metadata template
+#
+# See https://f-droid.org/docs/ for more details
+# and the Metadata reference
+# https://f-droid.org/docs/Build_Metadata_Reference/
+#
+# Fields that are commented out are optional
+#
+# Single-line fields start right after the colon (with a whitespace).
+
+# These items are the metadata for the app. Please fill as many as possible.
+Categories: # Use those which apply
+  - Connectivity
+  - Phone & SMS
+  - Time
+License: GPL-3.0-only
+AuthorName: Masoud Azizi(http://github.com/mablue)
+AuthorEmail: mablue92@gmail.com
+# AuthorWebSite: (web link)
+# WebSite: (web link)
+SourceCode: (web link)
+# IssueTracker: (web link)
+
+# Changelog: (web link)
+# Donate: (web link)
+# FlattrID: (number)
+# LiberapayID: (number)
+# Bitcoin: (bitcoin address)
+
+RepoType: git
+Repo: https://github.com/mablue/Jimbot.git
+Binaries: https://github.com/mablue/Jimbot/app/jimbot_%c.apk
+
+# At least one for new apps
+Builds:
+  - versionName: '1.0'
+    versionCode: 1
+    commit: v1.0
+    subdir: app
+    # submodules: true
+    # output: some.apk
+    # prebuild: sed -i -e
+    # build: make
+
+# For a complete list of possible flags, see the docs
+
+# MaintainerNotes: |-
+#     Here go the notes to take into account for future updates, builds, etc.
+#     Will be published in the wiki if present.
+
+# The following options are described at this location:
+# https://f-droid.org/docs/Build_Metadata_Reference/#UpdateCheckMode
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.0'
+CurrentVersionCode: 1
